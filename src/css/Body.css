@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
+
+.body__container {
+	position: relative;
+	display: flex;
+	bottom: 140px;
+}
+
+.decorative__square {
+	display: flex;
+	position: relative;
+	width: 5px;
+	height: 518px;
+	left: 110px;
+	top: 230px;
+	background: #4e677e;
+	align-items: center;
+	flex-direction: column;
+}
+.decorative__square__short {
+	display: flex;
+	position: relative;
+	width: 5px;
+	height: 188px;
+	left: 110px;
+	top: 230px;
+	background: #4e677e;
+	align-items: center;
+	flex-direction: column;
+}
+.decorative__square__tiny {
+	display: flex;
+	position: relative;
+	width: 5px;
+	height: 98px;
+	left: 110px;
+	top: 230px;
+	background: #4e677e;
+	align-items: center;
+	flex-direction: column;
+}
+.timeline__square {
+	display: flex;
+	position: relative;
+	bottom: 3px;
+	width: 25px;
+	height: 25px;
+	background-color: #aa3c3c;
+	transform: rotate(45deg);
+}
+
+.timeline__column {
+	display: flex;
+	flex-direction: column;
+}
+.timeline__square__point {
+	display: flex;
+	position: relative;
+	top: 20px;
+	width: 15px;
+	height: 15px;
+	background-color: #4e677e;
+	transform: rotate(45deg);
+}
+
+.dates {
+	display: flex;
+	flex-direction: column;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height: 28px;
+	position: relative;
+	left: 135px;
+	top: 250px;
+	color: #4e677e;
+	justify-content: space-evenly;
+}
+.text__info {
+	display: flex;
+	position: relative;
+	top: 235px;
+	color: #4e677e;
+	left: 200px;
+}
+.icon1 {
+	position: relative;
+	z-index: 1;
+	width: 17px;
+	bottom: 20px;
+	left: 99px;
+}
+.icon2 {
+	position: relative;
+	z-index: 1;
+	width: 24px;
+	height: 25px;
+	fill: white;
+	top: 227px;
+	left: 95px;
+}
+.icon3 {
+	position: relative;
+	z-index: 1;
+	width: 25px;
+	height: 25px;
+	top: 228px;
+	left: 94px;
+}
